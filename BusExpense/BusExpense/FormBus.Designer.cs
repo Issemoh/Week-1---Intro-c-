@@ -1,6 +1,6 @@
 ﻿namespace BusExpense
 {
-    partial class Form1
+    partial class FormBus
     {
         /// <summary>
         /// Required designer variable.
@@ -92,19 +92,20 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // Form1
+            // FormBus
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.ClientSize = new System.Drawing.Size(704, 399);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtTrips);
             this.Controls.Add(this.btnCalculate);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "FormBus";
+            this.Text = "Bus Expenses";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
